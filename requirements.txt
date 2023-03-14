@@ -1,11 +1,9 @@
-import pandas as pd
-import folium
-import folium.plugins
-from folium.plugins import HeatMap
-import plotly.express as px
-import json
-import tempfile
-import sys
-from PyQt5 import QtCore, QtWidgets, QtWebEngineWidgets
-from PyQt5.QtCore import QTimer, QFile, QIODevice
+pandas 
+folium
+folium.plugins
+plotly.express 
+json
+tempfile
+sys
+PyQt5 
 

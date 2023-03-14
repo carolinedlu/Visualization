@@ -27,7 +27,7 @@ from branca.element import IFrame
 app = QtWidgets.QApplication(sys.argv)
 
 # Load data
-data = pd.read_csv('AGROSTAT\Food_Security_Data_E_All_Data_NOFLAG.csv', encoding='ISO-8859-1', dtype={'97': str, '103': str, '109': str, '115': str, '121': str, '127': str, '131': str})
+data = pd.read_csv('Food_Security_Data_E_All_Data_NOFLAG.csv', encoding='ISO-8859-1', dtype={'97': str, '103': str, '109': str, '115': str, '121': str, '127': str, '131': str})
 
 # Create map centered at (0, 0) with zoom level 2
 m = folium.Map(location=[0, 0], zoom_start=2)

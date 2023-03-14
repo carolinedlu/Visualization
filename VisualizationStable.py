@@ -1,25 +1,15 @@
-import tkinter as tk
 import pandas as pd
 import folium
 import folium.plugins
-from folium.plugins import HeatMap, MarkerCluster, FastMarkerCluster, MarkerCluster
-import numpy as np
-import plotly
+from folium.plugins import HeatMap
 import plotly.express as px
-import requests
 import json
-import html
-import os.path
 import tempfile
-import threading
 import sys
-import pyproj
-import math
-from PyQt5 import QtGui
+
 from PyQt5 import QtCore, QtWidgets, QtWebEngineWidgets
 from PyQt5.QtCore import QTimer, QFile, QIODevice
-from PyQt5.QtWidgets import QApplication
-from branca.element import IFrame
+
 
 
 

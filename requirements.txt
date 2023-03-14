@@ -2,4 +2,4 @@ pandas
 folium==0.14.0
 plotly==5.13.1
 PyQt5==5.15.9 
-
+streamlit >= 1.9.2

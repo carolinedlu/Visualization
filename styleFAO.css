@@ -1,0 +1,90 @@
+/* General settings */
+QWidget {
+  background-color: #FFFFFF;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  }
+  
+  /* Item dropdown */
+  QComboBox {
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  padding: 5px;
+  min-width: 200px;
+  }
+  
+  /* Year slider */
+  QSlider::groove:horizontal {
+  height: 10px;
+  background: #D3D3D3;
+  margin: 10px 0;
+  }
+  
+  QSlider::handle:horizontal {
+  background: #444444;
+  border: 1px solid #444444;
+  width: 20px;
+  height: 20px;
+  margin: -5px -10px;
+  border-radius: 10px;
+  }
+  
+  QSlider::add-page:horizontal {
+  background: #D3D3D3;
+  }
+  
+  QSlider::handle:horizontal:pressed {
+  background: #BBB;
+  }
+  
+  .QSlider::handle:horizontal::year {
+  font-size: 16px;
+  background-color: #FFFFFF;
+  border: 1px solid #ccc;
+  color: black;
+  width: 40px;
+  text-align: center;
+  margin-left: -20px;
+  margin-top: -30px;
+  border-radius: 10px;
+  }
+
+
+
+/* Heatmap */
+.leaflet-heatmap-layer {
+  border: 1px solid #BDBDBD;
+  border-radius: 3px;
+}
+
+.leaflet-heatmap-layer canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.85;
+}
+
+.leaflet-heatmap-layer canvas.blur {
+  filter: blur(3px);
+}
+
+.leaflet-heatmap-layer canvas.low {
+  opacity: 0.6;
+}
+
+.leaflet-heatmap-layer canvas.medium {
+  opacity: 0.75;
+}
+
+.leaflet-heatmap-layer canvas.high {
+  opacity: 0.9;
+}
+
+.legend {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #999;
+}

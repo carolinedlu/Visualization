@@ -1,7 +1,6 @@
 pandas 
 folium
-folium.plugins
-plotly.express 
+plotly
 json
 tempfile
 sys

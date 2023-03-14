@@ -1,8 +1,5 @@
 pandas 
 folium
 plotly
-json
-tempfile
-sys
 PyQt5 
 

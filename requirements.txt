@@ -2,4 +2,4 @@ pandas
 folium
 plotly
 PyQt5 
-
+streamlib

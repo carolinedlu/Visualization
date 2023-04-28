@@ -6,7 +6,8 @@ import plotly.express as px
 import json
 import tempfile
 import sys
-from PyQt5 import *
+#from PyQt5 import *
+from PyQt5.QtWidgets import *
 #from PyQt5 import QtCore, QtWidgets, QtWebEngineWidgets
 #from PyQt5.QtCore import QTimer, QFile, QIODevice
 
